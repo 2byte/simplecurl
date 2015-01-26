@@ -1,0 +1,24 @@
+{
+  "name": "orel/simplecurl",
+  "description": "PHP Curl Class is an object-oriented wrapper of the PHP cURL extension.",
+  "type": "library",
+  "homepage": "https://github.com/2byte/simplecurl",
+  "license": "Unlicense",
+  "keywords": ["php", "curl", "class"],
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Orel",
+      "email": "xvab2byte@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*"
+  },
+  "autoload": {
+      "psr-0": {
+          "Simplecurl": "src/"
+      }
+  }
+}
